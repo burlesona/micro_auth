@@ -13,6 +13,7 @@ class MicroAuth::SessionsController < ApplicationController
 	end
 
 	def destroy
+		reset_session
 		session[:admin] = false
 		redirect_to :back, :notice => 'Logged out.'
 	end
