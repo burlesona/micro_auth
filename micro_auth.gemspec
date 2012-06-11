@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary = "An absolutely tiny authentication gem for single-admin rails apps."
   s.homepage = "http://github.com/burlesona/micro_auth"
   s.add_dependency 'rails', '>= 3.1'
-  s.files = Dir.glob("{lib}/**/*") + %w(CHANGELOG README.md LICENSE)
+  s.files = Dir.glob("{app,config,lib}/**/*") + %w(CHANGELOG README.md LICENSE)
   
   s.description = "A super simple session-based authentication gem, for when you need to add basic admin capability to a single-user Rails app."
 end
