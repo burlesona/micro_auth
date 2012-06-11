@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '>= 3.1'
   s.files = Dir.glob("{lib}/**/*") + %w(CHANGELOG README.md LICENSE)
   
-  s.description = "An absolutely tiny authentication gem for single-admin rails apps."
+  s.description = "A super simple session-based authentication gem, for when you need to add basic admin capability to a single-user Rails app."
 end
