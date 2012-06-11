@@ -1,0 +1,16 @@
+<h1>Administrator Login</h1>
+<div class="login_form">
+	<%= form_tag micro_auth_sessions_path, :class => "micro_auth login standard" do %>
+		<div class="input">
+			<%= label_tag :login, 'Login Name' %>
+			<%= text_field_tag :login %>
+		</div>
+		<div class="input">
+			<%= label_tag :pass, 'Password' %>
+			<%= password_field_tag :pass %>
+		</div>
+		<div class="input submit">
+			<%= submit_tag "Log In" %>
+		</div>
+	<% end %>
+</div>
