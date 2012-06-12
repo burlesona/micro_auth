@@ -10,7 +10,7 @@ module MicroAuth
 			def authenticate
 				unless admin?
 					session[:target] = request.path
-					redirect_to login_path
+					redirect_to login_path, :alert => "You must be logged-in to view this page."
 				end
 			end
 

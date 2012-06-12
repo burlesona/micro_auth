@@ -1,4 +1,6 @@
 Changelog:
+0.1.2:
+- Added flash message for unauthorized access attempts.
 0.1.1:
 - Removed unneeded comments.
 0.1.0:
