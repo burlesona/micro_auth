@@ -1,4 +1,7 @@
 Changelog:
+0.2.0:
+- Changed logout behavior to be more logical: on logout users are now redirected to root
+  path instead of back.
 0.1.2:
 - Added flash message for unauthorized access attempts.
 0.1.1:
