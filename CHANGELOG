@@ -1,4 +1,8 @@
 Changelog:
+0.3.0:
+- Added option to redirect to something other than root on login.
+	If you specify an `admin_path` in your routes, this will be used
+	as the default instead of `root_path`.
 0.2.0:
 - Changed logout behavior to be more logical: on logout users are now redirected to root
   path instead of back.
